@@ -1,0 +1,394 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+	src: url(fonts/CrystalUniverse-Regular.ttf);
+	font-family: su_font;
+}
+
+@font-face{
+	src: url(https://use.typekit.net/kbe7rax.css);
+	font-family: Source_Code_Pro_Medium;
+}
+
+body{
+	background-color: #FEFFE6 ;
+}
+h1{
+	;
+	margin-bottom: 10px;
+	font-family: su_font;
+	font-size: 30px;
+	letter-spacing: 2px;
+	font-weight: 1px;
+}
+
+h2 {
+
+}
+
+p { ;
+font-family: "source-code-pro", monospace;
+font-weight: 400;
+font-style: normal;
+}
+
+nav {
+	font-family: "source-code-pro", monospace;
+font-weight: 400;
+font-style: normal;
+
+}
+
+ul{
+
+}
+
+ul li {
+	color: #18B975;
+	
+}
+li{
+	list-style: none;
+}
+a{
+	list-style: none;
+	text-decoration: none;
+	color:#18B975;
+}
+
+.header{
+	display: flex;
+	background-color: #FEFFE6;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	width: auto;
+
+}
+.header img{
+	width: 40px;
+	height: auto;
+	margin-left: 300px;
+
+}
+.header nav li{
+ display: inline-block;
+ margin-right: 300px;
+
+}
+.header ul{
+	 margin-left: 100px;
+}
+
+.statement{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 300px;
+	margin-right: 300px;
+	color: #FEFFE6;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color:#17B975 ;
+	border-radius: 50px;
+	padding: 30px;
+}
+
+
+/*lars recipe*/
+
+.larscluster{
+	position: absolute;
+	width: 1792px;
+
+}
+
+.lars{
+	align-content: center;
+	background-color: #FF6292;
+	height: 600px;
+	margin-top: 420px;
+	padding-top: 20px;
+}
+.larsimg{
+	width: 500px;
+	height: 550px;
+	float: left;
+	display: flex;
+	margin-left: 300px;
+
+}
+.larstext{
+	color: #FF8BAE;
+	width: 450px;
+	display: flex;
+	flex-direction: column;
+	float: right;
+	background-color: #FEFFE6;
+	border-radius: 50px;
+	padding: 30px;
+	margin-right: 300px;
+}
+
+/*greg recipe*/
+
+.gregcluster{
+	position: absolute;
+	width: 1792px;
+	margin-top: 260px;
+
+}
+
+.greg{
+	align-content: center;
+	background-color: #FFDC84;
+	height: 600px;
+	margin-top: ;
+	padding-top: 20px;
+}
+.gregimg{
+	width: 500px;
+	height: 550px;
+	float: right;
+	display: flex;
+	margin-right: 300px;
+}
+.gregtext{
+	color: #513E2F;
+	width: 450px;
+	display: flex;
+	flex-direction: column;
+	float: left;
+	background-color:#FEFFE6 ;
+	border-radius: 50px;
+	padding: 30px;
+	margin-left: 300px;
+}
+
+/*lapis*/
+
+.lapiscluster{
+	position: absolute;
+	width: 1792px;
+	margin-top: 340px;
+
+}
+
+.lapis{
+	align-content: center;
+	background-color: #5A65E6;
+	height: 600px;
+	margin-top: 67px;
+	padding-top: 20px;
+}
+.lapisimg{
+	width: 500px;
+	height: 550px;
+	float: left;
+	display: flex;
+	margin-left: 300px;
+
+}
+.lapistext{
+	color: #5A65E6;
+	width: 450px;
+	display: flex;
+	flex-direction: column;
+	float: right;
+	background-color: #FEFFE6;
+	border-radius: 50px;
+	padding: 30px;
+	margin-right: 300px;
+}
+
+/*garnet*/
+
+.garnetcluster{
+	position: absolute;
+	width: 1792px;
+	margin-top: 280px;
+
+}
+
+.garnet{
+	align-content: center;
+	background-color: #4B57D8;
+	height: 600px;
+	padding-top: 20px;
+}
+.garnetimg{
+	width: 500px;
+	height: 550px;
+	float: right;
+	display: flex;
+	margin-right: 300px;
+}
+.garnettext{
+	color: #D30000;
+	width: 450px;
+	display: flex;
+	flex-direction: column;
+	float: left;
+	background-color:#FEFFE6 ;
+	border-radius: 50px;
+	padding: 30px;
+	margin-left: 300px;
+}
+
+/*amethyst*/
+
+.amethystcluster{
+	position: absolute;
+	width: 1792px;
+	margin-top: 340px;
+
+}
+
+.amethyst{
+	align-content: center;
+	background-color: #7510BF;
+	height: 600px;
+	margin-top: 67px;
+	padding-top: 20px;
+}
+.amethystimg{
+	width: 500px;
+	height: 550px;
+	float: left;
+	display: flex;
+	margin-left: 300px;
+
+}
+.amethysttext{
+	color: #7510BF;
+	width: 450px;
+	display: flex;
+	flex-direction: column;
+	float: right;
+	background-color: #FEFFE6;
+	border-radius: 50px;
+	padding: 30px;
+	margin-right: 300px;
+}
+
+/*stevonnie*/
+
+.stevonniecluster{
+	position: absolute;
+	width: 1792px;
+	margin-top: 340px;
+
+}
+
+.stevonnie{
+	align-content: center;
+	background-color: #F52659;
+	height: 600px;
+	margin-top: 67px;
+	padding-top: 20px;
+}
+.stevonnieimg{
+	width: 500px;
+	height: 550px;
+	float: right;
+	display: flex;
+	margin-right: 300px;
+
+}
+.stevonnietext{
+	color: #F52659;
+	width: 450px;
+	display: flex;
+	flex-direction: column;
+	float: left;
+	background-color: #FEFFE6;
+	border-radius: 50px;
+	margin-left: 300px;
+	padding: 30px;
+}
+/*steven*/
+
+.stevencluster{
+	position: absolute;
+	width: 1792px;
+	margin-top: 280px;
+
+}
+
+.steven{
+	align-content: center;
+	background-color: #FF6292;
+	height: 600px;
+	padding-top: 20px;
+}
+.stevenimg{
+	width: 500px;
+	height: 550px;
+	float: left;
+	display: flex;
+	margin-left: 300px;
+}
+.steventext{
+	color: #FF6292;
+	width: 450px;
+	display: flex;
+	flex-direction: column;
+	float: right;
+	background-color:#FEFFE6 ;
+	border-radius: 50px;
+	padding: 30px;
+	margin-right: 300px;
+}
+
+/*footer*/
+
+
+.footercluster{
+	position: absolute;
+	width: 1792px;
+	margin-top: 330px;
+}
+
+
+.footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #FFEC74;
+	height: 100px;
+	margin-top: 54px;
+}
+
+
+.foots nav li{
+	display: inline-block;
+	margin-left: 300px;
+
+}
+
+.footlogo{
+	width: 40px;
+
+	margin-right: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

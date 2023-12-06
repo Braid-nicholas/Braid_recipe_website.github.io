@@ -1,0 +1,182 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+	src: url(fonts/CrystalUniverse-Regular.ttf);
+	font-family: su_font;
+}
+
+@font-face{
+	src: url(https://use.typekit.net/kbe7rax.css);
+	font-family: Source_Code_Pro_Medium;
+}
+
+body{
+	background-color: #FEFFE6 ;
+	color: white
+}
+h1{
+	 ;
+	margin-bottom: 10px;
+	font-family: su_font;
+	font-size: 30px;
+	letter-spacing: 2px;
+	font-weight: 1px;
+}
+
+h2 {
+
+}
+
+p {
+ ;
+font-family: "source-code-pro", monospace;
+font-weight: 400;
+font-style: normal;
+}
+
+nav {
+	color:#18B975;
+	font-family: "source-code-pro", monospace;
+font-weight: 400;
+font-style: normal;
+
+}
+
+ul{
+
+}
+
+ul li {
+	
+}
+li{
+	list-style: none;
+	font-family: "source-code-pro", monospace;
+	font-weight: 400;
+	font-style: normal;
+}
+a{
+	list-style: none;
+	text-decoration: none;
+	color:#18B975 ;
+}
+
+.header{
+	display: flex;
+	background-color: #FEFFE6;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	width: auto;
+
+}
+.header img{
+	width: 40px;
+	height: auto;
+	margin-left: 300px;
+
+}
+.header nav li{
+ display: inline-block;
+ margin-right: 300px;
+
+}
+.header ul{
+	 margin-left: 100px;
+}
+
+/*greg statement*/
+
+.gregcluster{
+	position: absolute;
+	width: 1792px;
+	margin-top: 480px;
+}
+
+.greg{
+	align-content: center;
+	background-color: #FFDC84;
+	height: 800px;
+	padding-top: 100px;
+}
+.gregimg{
+	width: 700px;
+	height: 700px;
+	float: right;
+	display: flex;
+	margin-right: 300px;
+
+}
+.gregtext{
+	color: #723A0E;
+	width: 450px;
+	display: flex;
+	flex-direction: column;
+	float: left;
+	background-color:#FEFFE6;
+	border-radius: 50px;
+	padding: 30px;
+	margin-left: 300px;
+}
+
+/*ingridients*/
+
+.ingridients{
+	display: flex;
+	flex-direction: column;
+	float: left;
+	background-color:#FFDC84 ;
+	margin-left: 300px;
+	margin-top: 200px;
+	border-radius: 50px;
+	padding: 40px;
+	width: 400px;
+	color: #723A0E;
+}
+
+/*instructions*/
+
+.instructions{
+	display: flex;
+	flex-direction: column;
+	float: right;
+	background-color:#FFDC84 ;
+	margin-right: 300px;
+	margin-top: 800px;
+	border-radius: 50px;
+	padding: 40px;
+	width: 500px;
+	color: #723A0E;
+}
+
+/*footer*/
+
+.footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #FFEC74;
+	height: 100px;
+	margin-top: 1400px;
+}
+
+
+.foots nav li{
+	display: inline-block;
+	margin-left: 300px;
+
+}
+
+.footlogo{
+	width: 40px;
+	margin-right: 300px;
+}
+
+
+
+
+

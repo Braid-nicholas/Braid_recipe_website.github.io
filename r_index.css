@@ -1,0 +1,271 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+	src: url(fonts/CrystalUniverse-Regular.ttf);
+	font-family: su_font;
+}
+
+@font-face{
+	src: url(https://use.typekit.net/kbe7rax.css);
+	font-family: Source_Code_Pro_Medium;
+}
+
+body{
+	background-color: #FEFFE6 ;
+	color: white
+}
+h1{
+	color:#FFFFC7 ;
+	margin-bottom: 10px;
+	font-family: su_font;
+	font-size: 30px;
+	letter-spacing: 2px;
+	font-weight: 1px;
+}
+
+h2 {
+
+}
+
+p {
+color:#FFFFC7 ;
+font-family: "source-code-pro", monospace;
+font-weight: 400;
+font-style: normal;
+}
+
+nav {
+	color:#18B975;
+	font-family: "source-code-pro", monospace;
+font-weight: 400;
+font-style: normal;
+
+}
+
+ul{
+
+}
+
+ul li {
+	
+}
+li{
+	list-style: none;
+}
+a{
+	list-style: none;
+	text-decoration: none;
+	color:#18B975 ;
+}
+
+.header{
+	display: flex;
+	background-color: #FFEC74;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	width: auto;
+
+}
+.header img{
+	width: 40px;
+	height: auto;
+	margin-left: 300px;
+
+}
+.header nav li{
+ display: inline-block;
+ margin-right: 300px;
+
+}
+.header ul{
+	 margin-left: 100px;
+}
+
+
+
+
+/*EVERYTHINGGGG*/
+.information{
+	background-color: #18B975;
+	padding-top: 20px;
+}
+
+/*cluster*/
+.clustercontainer{
+
+}
+.cluster{
+	position: absolute;
+	flex-direction: column;
+	align-items: flex-end;
+	width: 1090px;
+	margin-bottom: 200px;
+	margin-top: 450px;
+	margin-left: 700px;
+
+}
+
+.green{
+	background-color:#18B975;
+	width: 800px;
+	height: 400px;
+}
+
+.green2{
+	background-color:#18B975;
+	width: 1000px;
+	height: 230px;
+	margin-left: 140px;
+	margin-top: 170px;
+	float: right;
+
+}
+
+/* Learn Grow Share styles*/
+
+
+.lgs{
+	display: flex;
+	float: right;
+	margin-right: 300px;
+	margin-top: 320px;
+}
+.lgs nav{
+	justify-content: space-between;
+}
+.lgs li h1{
+	padding-left: 120px;
+	padding-top: 20px;
+	border-radius: 100px;
+	margin-bottom: 10px;
+}
+.lgs h1{
+	background-color: #FFEC74;
+	padding-bottom: 8px;
+	color: #18B975;
+}
+.lgs img{
+	width: 400px;
+	height: auto;
+}
+
+.kitchen{
+	width: 850px;
+	height: 850px;
+}
+}
+
+
+
+
+
+
+/*info styles*/
+
+.wif{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 200px;
+
+}
+
+.food{
+	display: flex;
+	width:400px;
+	flex-direction: column;
+	margin-right: 300px;
+	margin-left: px;
+	float: right;
+
+}
+.wifimg{
+	width: 500px;
+	float: left;
+	margin-left: 300px;
+}
+/*what food is not */
+.wfin{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 400px;
+}
+
+.not{
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	float: left;
+	margin-left: 300px;
+	margin-right: 50px;
+}
+.steven_blurp{
+	width: 700px;
+	margin-right: 300px;
+}
+/* who needs food*/
+
+.wnf{
+	display: flex;
+}
+
+.needs{
+	display: flex;
+	flex-direction: column;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-top: 300px;
+}
+
+
+.gd{
+	display: flex;
+	flex-direction: column;
+	margin-left: 300px;
+	margin-top: 300px;
+	width: 400px;
+
+}
+
+.gdimg{
+	width: 500px;
+	margin-top: 50px;
+	margin-bottom: 90px;
+}
+
+/*footerThings*/
+
+.footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #FFEC74;
+	height: 70px;
+}
+
+
+.foots nav li{
+	display: inline-block;
+	margin-left: 300px;
+
+
+
+}
+
+.footlogo{
+	width: 40px;
+
+	margin-right: 300px;
+}
+
+
+
+
+
+
